@@ -25,3 +25,32 @@
 #container a {
   text-decoration: none;
 }
+#container previous {
+  text-align: left;
+  }
+  
+  $colors: (
+  primary:    #488aff,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222
+);
+.clasification{ 
+  position: fixed; 
+  right: 0;  
+  margin:10px; 
+
+}
+.day{ 
+  position: fixed; 
+  left: 0;  
+  margin:10px; 
+}
+.icon {
+  font-size: 64px;
+  color : red;
+}
+ion-content{
+  --ion-background-color: rgba(236, 197, 69, 0.486);
+  }
